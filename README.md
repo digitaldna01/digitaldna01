@@ -1,4 +1,4 @@
-# Jay Hong Lee
+# Hi My Name is Jay!
 ## Hi there 👋
 
 <!--
