@@ -1,4 +1,4 @@
- ![Tux, the Linux mascot](/assets/images/tux.png)
+ ![Tux, the Linux mascot](/jay.jpng)
 
 # Hi My Name is Jay!
 ## Hi there 👋
@@ -18,8 +18,9 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 ## 🖥️ My Tech Skills 
-
-[![My Skills](https://skillicons.dev/icons?i=react,html,css,figma,bootstrap,ps&perline=3)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=c,python,julia,r,java,matlab,kotlin,mysql,html,css,javascript)](https://skillicons.dev)\
+[![My Skills](https://skillicons.dev/icons?i=react,tensorflow,pytorch,sklearn,opencv,docker,flask,django)](https://skillicons.dev)\
+[![My Skills](https://skillicons.dev/icons?i=aws,linux,azure,figma,sketchup,ps,ai,latex,)](https://skillicons.dev)
 ---
 ![](https://raw.githubusercontent.com/digitaldna01/github-stats/master/generated/overview.svg#gh-dark-mode-only)
 ![](https://raw.githubusercontent.com/digitaldna01/github-stats/master/generated/languages.svg#gh-dark-mode-only)
