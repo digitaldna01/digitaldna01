@@ -1,3 +1,5 @@
+ ![Tux, the Linux mascot](/assets/images/tux.png)
+
 # Hi My Name is Jay!
 ## Hi there 👋
 
@@ -15,8 +17,12 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+## 🖥️ My Tech Skills 
 
+[![My Skills](https://skillicons.dev/icons?i=react,html,css,figma,bootstrap,ps&perline=3)](https://skillicons.dev)
+---
 ![](https://raw.githubusercontent.com/digitaldna01/github-stats/master/generated/overview.svg#gh-dark-mode-only)
 ![](https://raw.githubusercontent.com/digitaldna01/github-stats/master/generated/languages.svg#gh-dark-mode-only)
+
 ![](https://raw.githubusercontent.com/digitaldna01/github-stats/master/generated/overview.svg#gh-light-mode-only)
 ![](https://raw.githubusercontent.com/digitaldna01/github-stats/master/generated/languages.svg#gh-light-mode-only)
