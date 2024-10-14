@@ -1,5 +1,3 @@
- ![Tux, the Linux mascot](/jay.jpng)
-
 # Hi My Name is Jay!
 ## Hi there 👋
 
