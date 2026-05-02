@@ -1,0 +1,78 @@
+<svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F1115"/>
+      <stop offset="0.55" stop-color="#171A21"/>
+      <stop offset="1" stop-color="#0F1115"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="178" y1="74" x2="1040" y2="286" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E8D7A5"/>
+      <stop offset="1" stop-color="#B28A52"/>
+    </linearGradient>
+    <linearGradient id="soft" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F5E7BF" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#F5E7BF" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="blur" x="0" y="0" width="1280" height="360" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="42"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="360" rx="24" fill="url(#bg)"/>
+
+  <g opacity="0.16">
+    <path d="M0 72H1280" stroke="#D3B987" stroke-width="1"/>
+    <path d="M0 144H1280" stroke="#D3B987" stroke-width="1"/>
+    <path d="M0 216H1280" stroke="#D3B987" stroke-width="1"/>
+    <path d="M0 288H1280" stroke="#D3B987" stroke-width="1"/>
+    <path d="M128 0V360" stroke="#D3B987" stroke-width="1"/>
+    <path d="M320 0V360" stroke="#D3B987" stroke-width="1"/>
+    <path d="M512 0V360" stroke="#D3B987" stroke-width="1"/>
+    <path d="M704 0V360" stroke="#D3B987" stroke-width="1"/>
+    <path d="M896 0V360" stroke="#D3B987" stroke-width="1"/>
+    <path d="M1088 0V360" stroke="#D3B987" stroke-width="1"/>
+  </g>
+
+  <g filter="url(#blur)" opacity="0.9">
+    <circle cx="1024" cy="72" r="120" fill="#8C6B42"/>
+    <circle cx="214" cy="310" r="96" fill="#4C3D29"/>
+  </g>
+
+  <rect x="64" y="56" width="1152" height="248" rx="20" fill="url(#soft)" stroke="rgba(245,231,191,0.24)"/>
+
+  <path d="M92 96H300" stroke="url(#accent)" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="92" cy="96" r="6" fill="#E8D7A5"/>
+
+  <text x="92" y="148" fill="#F7F1E4" font-family="Georgia, 'Times New Roman', serif" font-size="52" font-weight="700" letter-spacing="1.2">
+    Jay Lee
+  </text>
+
+  <text x="92" y="188" fill="#D7C8A6" font-family="Arial, Helvetica, sans-serif" font-size="18" letter-spacing="4">
+    APPLIED AI • RESEARCH ENGINEERING • PRODUCT THINKING
+  </text>
+
+  <text x="92" y="236" fill="#E9E0CF" font-family="Arial, Helvetica, sans-serif" font-size="22">
+    Building systems that translate technical ideas into practical software.
+  </text>
+
+  <text x="92" y="268" fill="#B6B0A3" font-family="Arial, Helvetica, sans-serif" font-size="18">
+    Machine learning, simulation, experimentation, and user-facing prototypes.
+  </text>
+
+  <rect x="905" y="92" width="247" height="144" rx="16" fill="#11151C" stroke="#4A3B28"/>
+  <text x="932" y="130" fill="#E8D7A5" font-family="Arial, Helvetica, sans-serif" font-size="14" letter-spacing="2.5">
+    SELECTED AREAS
+  </text>
+  <text x="932" y="166" fill="#F5F1E7" font-family="Arial, Helvetica, sans-serif" font-size="18">
+    Quantum simulation
+  </text>
+  <text x="932" y="194" fill="#F5F1E7" font-family="Arial, Helvetica, sans-serif" font-size="18">
+    Computer vision
+  </text>
+  <text x="932" y="222" fill="#F5F1E7" font-family="Arial, Helvetica, sans-serif" font-size="18">
+    Accessibility-focused tools
+  </text>
+
+  <circle cx="1108" cy="274" r="28" stroke="#E8D7A5" stroke-width="1.5"/>
+  <circle cx="1108" cy="274" r="11" fill="#E8D7A5"/>
+</svg>
