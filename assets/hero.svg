@@ -1,78 +1,84 @@
-<svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1280" height="320" viewBox="0 0 1280 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Jay Lee">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="360" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0F1115"/>
-      <stop offset="0.55" stop-color="#171A21"/>
-      <stop offset="1" stop-color="#0F1115"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="178" y1="74" x2="1040" y2="286" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#E8D7A5"/>
-      <stop offset="1" stop-color="#B28A52"/>
-    </linearGradient>
-    <linearGradient id="soft" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#F5E7BF" stop-opacity="0.18"/>
-      <stop offset="1" stop-color="#F5E7BF" stop-opacity="0"/>
-    </linearGradient>
-    <filter id="blur" x="0" y="0" width="1280" height="360" filterUnits="userSpaceOnUse">
-      <feGaussianBlur stdDeviation="42"/>
-    </filter>
+    <pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="1" height="1" fill="#1F1F1F"/>
+    </pattern>
   </defs>
 
-  <rect width="1280" height="360" rx="24" fill="url(#bg)"/>
+  <rect width="1280" height="320" fill="#0A0A0A"/>
+  <rect width="1280" height="320" fill="url(#dots)"/>
 
-  <g opacity="0.16">
-    <path d="M0 72H1280" stroke="#D3B987" stroke-width="1"/>
-    <path d="M0 144H1280" stroke="#D3B987" stroke-width="1"/>
-    <path d="M0 216H1280" stroke="#D3B987" stroke-width="1"/>
-    <path d="M0 288H1280" stroke="#D3B987" stroke-width="1"/>
-    <path d="M128 0V360" stroke="#D3B987" stroke-width="1"/>
-    <path d="M320 0V360" stroke="#D3B987" stroke-width="1"/>
-    <path d="M512 0V360" stroke="#D3B987" stroke-width="1"/>
-    <path d="M704 0V360" stroke="#D3B987" stroke-width="1"/>
-    <path d="M896 0V360" stroke="#D3B987" stroke-width="1"/>
-    <path d="M1088 0V360" stroke="#D3B987" stroke-width="1"/>
+  <!-- corner brackets -->
+  <g fill="#F5F5F5">
+    <rect x="32" y="32" width="40" height="2"/>
+    <rect x="32" y="32" width="2" height="40"/>
+    <rect x="1208" y="32" width="40" height="2"/>
+    <rect x="1246" y="32" width="2" height="40"/>
+    <rect x="32" y="286" width="40" height="2"/>
+    <rect x="32" y="248" width="2" height="40"/>
+    <rect x="1208" y="286" width="40" height="2"/>
+    <rect x="1246" y="248" width="2" height="40"/>
   </g>
 
-  <g filter="url(#blur)" opacity="0.9">
-    <circle cx="1024" cy="72" r="120" fill="#8C6B42"/>
-    <circle cx="214" cy="310" r="96" fill="#4C3D29"/>
+  <!-- top tag -->
+  <g fill="#F5F5F5">
+    <rect x="56" y="64" width="20" height="2"/>
+    <rect x="80" y="64" width="20" height="2"/>
+    <rect x="104" y="64" width="20" height="2"/>
+    <rect x="128" y="64" width="6" height="2"/>
+  </g>
+  <text x="56" y="92" fill="#888888" font-family="'Courier New', Menlo, monospace" font-size="12" letter-spacing="3">&gt; ./digitaldna01.init</text>
+
+  <!-- big monospace title with pixel underline -->
+  <text x="56" y="190" fill="#F5F5F5" font-family="'Courier New', Menlo, monospace" font-size="92" font-weight="700" letter-spacing="6">JAY LEE</text>
+
+  <!-- decorative pixel blocks above title -->
+  <g fill="#F5F5F5">
+    <rect x="56" y="124" width="6" height="6"/>
+    <rect x="68" y="124" width="6" height="6"/>
+    <rect x="80" y="124" width="6" height="6"/>
+    <rect x="92" y="124" width="6" height="6"/>
+    <rect x="104" y="124" width="2" height="6"/>
   </g>
 
-  <rect x="64" y="56" width="1152" height="248" rx="20" fill="url(#soft)" stroke="rgba(245,231,191,0.24)"/>
+  <!-- pixel underline under name -->
+  <g fill="#F5F5F5">
+    <rect x="56" y="208" width="120" height="2"/>
+    <rect x="180" y="208" width="60" height="2"/>
+    <rect x="244" y="208" width="20" height="2"/>
+  </g>
 
-  <path d="M92 96H300" stroke="url(#accent)" stroke-width="3" stroke-linecap="round"/>
-  <circle cx="92" cy="96" r="6" fill="#E8D7A5"/>
+  <!-- subtitle -->
+  <text x="56" y="240" fill="#B5B5B5" font-family="'Courier New', Menlo, monospace" font-size="13" letter-spacing="4" font-weight="700">APPLIED  AI   ·   RESEARCH  ENGINEERING   ·   INTERFACES</text>
+  <text x="56" y="266" fill="#666666" font-family="'Courier New', Menlo, monospace" font-size="12" letter-spacing="1">building systems that translate technical ideas into practical software.</text>
 
-  <text x="92" y="148" fill="#F7F1E4" font-family="Georgia, 'Times New Roman', serif" font-size="52" font-weight="700" letter-spacing="1.2">
-    Jay Lee
-  </text>
+  <!-- right-side stat panel -->
+  <g font-family="'Courier New', Menlo, monospace" font-size="13" letter-spacing="2" fill="#F5F5F5">
+    <text x="820" y="98">[ ROLE      ·  BUILDER     ]</text>
+    <text x="820" y="124">[ LOCATION  ·  BOSTON, MA  ]</text>
+    <text x="820" y="150">[ FOCUS     ·  AI · QUANTUM]</text>
+    <text x="820" y="176">[ EDU       ·  BU · CS     ]</text>
+  </g>
 
-  <text x="92" y="188" fill="#D7C8A6" font-family="Arial, Helvetica, sans-serif" font-size="18" letter-spacing="4">
-    APPLIED AI • RESEARCH ENGINEERING • PRODUCT THINKING
-  </text>
+  <!-- pixel bar (status) -->
+  <text x="820" y="210" fill="#888888" font-family="'Courier New', Menlo, monospace" font-size="13" letter-spacing="2">[ STATUS    ·</text>
+  <g fill="#F5F5F5">
+    <rect x="978" y="200" width="10" height="10"/>
+    <rect x="992" y="200" width="10" height="10"/>
+    <rect x="1006" y="200" width="10" height="10"/>
+    <rect x="1020" y="200" width="10" height="10"/>
+    <rect x="1034" y="200" width="10" height="10"/>
+    <rect x="1048" y="200" width="10" height="10"/>
+    <rect x="1062" y="200" width="10" height="10"/>
+  </g>
+  <g fill="#333333">
+    <rect x="1076" y="200" width="10" height="10"/>
+    <rect x="1090" y="200" width="10" height="10"/>
+  </g>
+  <text x="1108" y="210" fill="#888888" font-family="'Courier New', Menlo, monospace" font-size="13" letter-spacing="2">SHIPPING  ]</text>
 
-  <text x="92" y="236" fill="#E9E0CF" font-family="Arial, Helvetica, sans-serif" font-size="22">
-    Building systems that translate technical ideas into practical software.
-  </text>
-
-  <text x="92" y="268" fill="#B6B0A3" font-family="Arial, Helvetica, sans-serif" font-size="18">
-    Machine learning, simulation, experimentation, and user-facing prototypes.
-  </text>
-
-  <rect x="905" y="92" width="247" height="144" rx="16" fill="#11151C" stroke="#4A3B28"/>
-  <text x="932" y="130" fill="#E8D7A5" font-family="Arial, Helvetica, sans-serif" font-size="14" letter-spacing="2.5">
-    SELECTED AREAS
-  </text>
-  <text x="932" y="166" fill="#F5F1E7" font-family="Arial, Helvetica, sans-serif" font-size="18">
-    Quantum simulation
-  </text>
-  <text x="932" y="194" fill="#F5F1E7" font-family="Arial, Helvetica, sans-serif" font-size="18">
-    Computer vision
-  </text>
-  <text x="932" y="222" fill="#F5F1E7" font-family="Arial, Helvetica, sans-serif" font-size="18">
-    Accessibility-focused tools
-  </text>
-
-  <circle cx="1108" cy="274" r="28" stroke="#E8D7A5" stroke-width="1.5"/>
-  <circle cx="1108" cy="274" r="11" fill="#E8D7A5"/>
+  <!-- footer line -->
+  <rect x="56" y="288" width="1168" height="1" fill="#222"/>
+  <text x="56" y="306" fill="#555555" font-family="'Courier New', Menlo, monospace" font-size="11" letter-spacing="3">[ DIGITALDNA01 ]</text>
+  <text x="1224" y="306" fill="#555555" font-family="'Courier New', Menlo, monospace" font-size="11" letter-spacing="3" text-anchor="end">v · 2026</text>
 </svg>

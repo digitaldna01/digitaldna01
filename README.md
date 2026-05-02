@@ -1,85 +1,80 @@
 <p align="center">
-  <img src="./assets/hero.svg" alt="Jay Lee banner" width="100%" />
+  <img src="./assets/hero.svg" alt="Jay Lee" width="100%" />
 </p>
 
 <p align="center">
-  <a href="https://www.jhonglee.com">Website</a> ·
-  <a href="https://www.linkedin.com/in/hong-lee-0821">LinkedIn</a> ·
-  <a href="https://github.com/digitaldna01?tab=repositories">Projects</a>
+  <code>[</code>
+  <a href="https://www.jhonglee.com">website</a>
+  <code>·</code>
+  <a href="https://www.linkedin.com/in/hong-lee-0821">linkedin</a>
+  <code>·</code>
+  <a href="https://github.com/digitaldna01?tab=repositories">projects</a>
+  <code>]</code>
 </p>
+
+<br />
+
+<h2 align="center"><code>───────  INTERESTS  ───────</code></h2>
 
 <p align="center">
-  I work across applied AI, research engineering, and product-oriented software.
-  <br />
-  My focus is building systems that connect technical depth with practical use.
+  Four areas I keep coming back to. Each one is a question I'm still trying to answer through code.
 </p>
 
-## Overview
-
-I am most interested in work that lives between experimentation and delivery: training models, validating ideas, and shaping them into tools that people can actually use.
-
-<table>
+<table align="center" border="0">
   <tr>
-    <td width="50%" valign="top">
-      <h3>What I Work On</h3>
-      <p>
-        • Applied machine learning and data systems<br />
-        • Research-oriented engineering and simulation<br />
-        • Prototyping interfaces for technical products<br />
-        • Turning complex concepts into usable software
-      </p>
+    <td width="25%" align="center"><img src="./assets/ai.svg" alt="AI" width="100%" /></td>
+    <td width="25%" align="center"><img src="./assets/embodiment.svg" alt="Embodiment" width="100%" /></td>
+    <td width="25%" align="center"><img src="./assets/quantum.svg" alt="Quantum" width="100%" /></td>
+    <td width="25%" align="center"><img src="./assets/interfaces.svg" alt="Interfaces" width="100%" /></td>
+  </tr>
+</table>
+
+<br />
+
+<h2 align="center"><code>───────  SELECTED WORK  ───────</code></h2>
+
+<table align="center">
+  <tr>
+    <td width="33%" valign="top">
+      <p><code>[ 01 ]</code></p>
+      <h3><a href="https://github.com/digitaldna01/quantum-simulator">QUANTUM SIMULATOR</a></h3>
+      <p>State-vector, Qiskit, and tensor-network approaches to quantum simulation.</p>
+      <p><sub><code>PYTHON · QISKIT · RESEARCH</code></sub></p>
     </td>
-    <td width="50%" valign="top">
-      <h3>How I Like To Build</h3>
-      <p>
-        • Start from the underlying technical question<br />
-        • Build with clarity before adding complexity<br />
-        • Balance analytical rigor with usability<br />
-        • Treat implementation as part of the research process
-      </p>
+    <td width="33%" valign="top">
+      <p><code>[ 02 ]</code></p>
+      <h3><a href="https://github.com/digitaldna01/Handpose">HANDPOSE</a></h3>
+      <p>Hand pose estimation with XGBoost on Unity-generated data — model interpretation focused.</p>
+      <p><sub><code>ML · XGBOOST · UNITY</code></sub></p>
+    </td>
+    <td width="33%" valign="top">
+      <p><code>[ 03 ]</code></p>
+      <h3><a href="https://github.com/digitaldna01/bostonhack23">BOSTONHACK23</a></h3>
+      <p>Accessibility-focused navigation prototype using Google Maps for safer mobility.</p>
+      <p><sub><code>MAPS API · A11Y · PROTOTYPE</code></sub></p>
     </td>
   </tr>
 </table>
 
-## Selected Work
+<br />
 
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <h3><a href="https://github.com/digitaldna01/quantum-simulator">Quantum Simulator</a></h3>
-      <p>
-        A research-driven project exploring state-vector, Qiskit, and tensor-network approaches to quantum simulation.
-      </p>
-    </td>
-    <td width="33%" valign="top">
-      <h3><a href="https://github.com/digitaldna01/Handpose">Handpose</a></h3>
-      <p>
-        Hand pose estimation with XGBoost and Unity-generated data, focused on experimentation and model interpretation.
-      </p>
-    </td>
-    <td width="33%" valign="top">
-      <h3><a href="https://github.com/digitaldna01/bostonhack23">BostonHack23</a></h3>
-      <p>
-        An accessibility-focused navigation prototype using the Google Maps API for safer, more independent mobility.
-      </p>
-    </td>
-  </tr>
-</table>
+<h2 align="center"><code>───────  BACKGROUND  ───────</code></h2>
 
-## Current Direction
+<p align="center">
+  <code>[ EDU      ·  Boston University  ·  Computer Science ]</code><br />
+  <code>[ LOC      ·  Boston, MA                            ]</code><br />
+  <code>[ THINKING ·  experimentation  →  systems  →  use   ]</code>
+</p>
 
-I am especially drawn to projects where machine learning, simulation, and software design meet practical constraints.
-That usually means building prototypes, testing assumptions quickly, and refining systems until they are both technically sound and usable.
+<br />
 
-## Background
+<h2 align="center"><code>───────  GITHUB SNAPSHOT  ───────</code></h2>
 
-- Boston University, Computer Science
-- Based in Boston, MA
-- Interested in AI systems, computational modeling, and product design
-
-## GitHub Snapshot
-
-<p align="left">
+<p align="center">
   <img src="https://raw.githubusercontent.com/digitaldna01/github-stats/master/generated/overview.svg#gh-dark-mode-only" alt="GitHub overview dark" />
   <img src="https://raw.githubusercontent.com/digitaldna01/github-stats/master/generated/overview.svg#gh-light-mode-only" alt="GitHub overview light" />
+</p>
+
+<p align="center">
+  <sub><code>&gt; end of file_</code></sub>
 </p>
